@@ -112,7 +112,7 @@ const CONFIG = {
     {
       category: 'Social',
       name: 'Twitter',
-      key: 't',
+      key: 'tw',
       url: 'https://www.twitter.com',
       search: '/search?q={}&src=typed_query',
       color: 'linear-gradient(135deg, #1DA1F2, #19608F)',
@@ -122,7 +122,7 @@ const CONFIG = {
     {
       category: 'Social',
       name: 'Reddit',
-      key: 'r',
+      key: 'rd',
       url: 'https://reddit.com',
       search: '/search?q={}',
       color: 'linear-gradient(135deg, #FF8456, #FF4500)',
@@ -132,8 +132,8 @@ const CONFIG = {
     {
       category: 'Social',
       name: 'Instagram',
-      key: 'pt',
-      url: 'https://www.pinterest.com/',
+      key: 'it',
+      url: 'https://www.instagram.com/',
       color: 'linear-gradient(135deg, #C13584, #FCAF45',
       icon: 'instagram',
       quickLaunch: true,
