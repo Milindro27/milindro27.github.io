@@ -15,39 +15,30 @@ const CONFIG = {
 
 
     {
-      category: 'General',
-      name: 'WhatsApp',
-      key: 'w',
-      url: 'https://web.whatsapp.com',
-      color: 'linear-gradient(135deg, #25D366, #128C7E, #075E54)',
-      icon: 'whatsapp',
-      quickLaunch: false,
-    },
-    {
-      category: 'General',
-      name: 'Proton Mail',
-      key: 'p',
-      url: 'https://mail.proton.me/u/0/inbox',
+      category: 'Geral',
+      name: 'E-Mail',
+      key: 'gm',
+      url: 'https://mail.google.com/mail/u/0/#inbox',
       search: '/#search/text={}',
-      color: 'linear-gradient(135deg, #6D4AFF, #9779FF)',
-      icon: 'proton',
+      color: 'linear-gradient(135deg, #ff0000, #00ab12)',
+      icon: 'mail',
       quickLaunch: true,
     },
     {
-      category: 'General',
-      name: 'Drive',
-      key: 'dr',
-      url: 'https://drive.google.com',
+      category: 'Geral',
+      name: 'Pinterest',
+      key: 'pt',
+      url: 'https://www.pinterest.pt',
       search: '/drive/search?q={}',
-      color: 'linear-gradient(135deg, #FFD04B, #1EA362, #4688F3)',
-      icon: 'drive',
+      color: 'linear-gradient(135deg, #ff0000, #ffffff)',
+      icon: 'pinterest',
       quickLaunch: false,
     },
     {
-      category: 'General',
-      name: 'Translate',
+      category: 'Geral',
+      name: 'Tradutor',
       key: 'tr',
-      url: 'https://translate.google.com/',
+      url: 'https://www.deepl.com/translator',
       search: '/#view=home&op=translate&sl=auto&tl=en&text={}',
       color: '#1a73e8',
       icon: 'translate',
@@ -56,37 +47,27 @@ const CONFIG = {
 
 
     {
-      category: 'Programming',
-      name: 'GitHub',
-      key: 'g',
-      url: 'https://github.com',
-      search: '/search?q={}',
-      color: 'linear-gradient(135deg, #2b2b2b, #3b3b3b)',
-      icon: 'github',
-      quickLaunch: true,
-    },
-    {
-      category: 'Programming',
+      category: 'Programação',
       name: 'Diolinux Plus',
       key: 'dp',
       url: 'https://plus.diolinux.com.br/',
       search: '/search?q={}',
       color: 'linear-gradient(135deg, #0F65AC, #BD0AA1)',
       icon: 'dplus',
-      quickLaunch: true,
-    },
-    {
-      category: 'Programming',
-      name: 'MDN',
-      key: 'md',
-      url: 'https://developer.mozilla.org/en-US',
-      search: '/search?q={}',
-      color: '#212121',
-      icon: 'mdn',
       quickLaunch: false,
     },
     {
-      category: 'Programming',
+      category: 'Programação',
+      name: 'Stack Overflow',
+      key: 'so',
+      url: 'https://stackoverflow.com',
+      search: '/search?q={}',
+      color: 'linear-gradient(135deg, #d6671f, #212121',
+      icon: 'stackoverflow',
+      quickLaunch: false,
+    },
+    {
+      category: 'Programação',
       name: 'DevDocs',
       key: 'dd',
       url: 'https://devdocs.io',
@@ -99,42 +80,34 @@ const CONFIG = {
     {
       category: 'Streaming',
       name: 'YouTube',
-      key: 'y',
+      key: 'yt',
       url: 'https://youtube.com',
       search: '/results?search_query={}',
       color: 'linear-gradient(135deg, #cd201f, #cd4c1f)',
       icon: 'youtube',
-      quickLaunch: false,
+      quickLaunch: true,
     },
     {
       category: 'Streaming',
-      name: 'HBO Max',
-      key: 'h',
-      url: 'https://play.hbomax.com/page/urn:hbo:page:home',
-      color: 'linear-gradient(135deg, #8C27E6, #3F75D5)',
-      icon: 'hbo',
-      quickLaunch: false,
-    },
-    {
-      category: 'Streaming',
-      name: 'Spotify',
-      key: 's',
-      url: 'https://open.spotify.com/',
+      name: 'ESound',
+      key: 'es',
+      url: 'https://esound.app/app/library',
       search: '/search/{}',
-      color: '#1dd35e',
-      icon: 'spotify',
+      color: '#1ec60d',
+      icon: 'esound',
       quickLaunch: false,
     },
     {
       category: 'Streaming',
-      name: 'Lastfm',
-      key: 'l',
-      url: 'https://www.last.fm/user/phiandrade',
+      name: 'Neflix',
+      key: 'nt',
+      url: 'https://www.netflix.com/browse',
       search: '/directory/game/{}',
       color: '#BA0000',
-      icon: 'lastfm',
+      icon: 'netflix',
       quickLaunch: false,
     },
+
 
     {
       category: 'Social',
@@ -158,21 +131,12 @@ const CONFIG = {
     },
     {
       category: 'Social',
-      name: 'Pinterest',
+      name: 'Instagram',
       key: 'pt',
       url: 'https://www.pinterest.com/',
-      color: '#E60023',
-      icon: 'pinterest',
-      quickLaunch: false,
-    },
-    {
-      category: 'Social',
-      name: 'Discord',
-      key: 'd',
-      url: 'https://discord.com/app',
-      color: '#7289da',
-      icon: 'discord',
-      quickLaunch: false,
+      color: 'linear-gradient(135deg, #C13584, #FCAF45',
+      icon: 'instagram',
+      quickLaunch: true,
     },
 
 
@@ -195,19 +159,19 @@ const CONFIG = {
    */
   influencers: [{
       name: 'Commands',
-      limit: 2
+      limit: 0
     },
     {
       name: 'Default',
-      limit: 4
+      limit: 0
     },
     {
       name: 'History',
-      limit: 1
+      limit: 2
     },
     {
       name: 'DuckDuckGo',
-      limit: 4
+      limit: 2
     },
   ],
 
@@ -215,8 +179,7 @@ const CONFIG = {
    * Default search suggestions for the specified queries.
    */
   defaultSuggestions: {
-    g: ['g/issues', 'g/pulls', 'gist.github.com'],
-    r: ['r/r/unixporn', 'r/r/voidlinux'],
+
   },
 
   /**
