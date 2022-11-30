@@ -49,11 +49,20 @@ const CONFIG = {
     {
       category: 'Programação',
       name: 'Diolinux Plus',
-      key: 'dp',
+      key: 'dl',
       url: 'https://plus.diolinux.com.br/',
       search: '/search?q={}',
       color: 'linear-gradient(135deg, #0F65AC, #BD0AA1)',
       icon: 'dplus',
+      quickLaunch: false,
+    },
+    {
+      category: 'Programação',
+      name: 'GitHub',
+      key: 'gt',
+      url: 'https://github.com/Matelios',
+      color: 'linear-gradient(135deg, #33373A, #484949)',
+      icon: 'github',
       quickLaunch: false,
     },
     {
@@ -66,16 +75,7 @@ const CONFIG = {
       icon: 'stackoverflow',
       quickLaunch: false,
     },
-    {
-      category: 'Programação',
-      name: 'DevDocs',
-      key: 'dd',
-      url: 'https://devdocs.io',
-      color: 'linear-gradient(135deg, #33373A, #484949)',
-      icon: 'devdocs',
-      quickLaunch: false,
-    },
-
+ 
 
     {
       category: 'Streaming',
@@ -112,7 +112,7 @@ const CONFIG = {
     {
       category: 'Social',
       name: 'Twitter',
-      key: 'tw',
+      key: 'tt',
       url: 'https://www.twitter.com',
       search: '/search?q={}&src=typed_query',
       color: 'linear-gradient(135deg, #1DA1F2, #19608F)',
@@ -122,7 +122,7 @@ const CONFIG = {
     {
       category: 'Social',
       name: 'Reddit',
-      key: 'rd',
+      key: 'rt',
       url: 'https://reddit.com',
       search: '/search?q={}',
       color: 'linear-gradient(135deg, #FF8456, #FF4500)',
