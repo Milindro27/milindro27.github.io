@@ -12,12 +12,6 @@ const CONFIG = {
       url: 'https://duckduckgo.com',
       search: '/?q={}'
     },
-    {
-      name: 'Google',
-      key: 'g ',
-      url: 'https://www.google.com',
-      search: '/?q={}'
-    },
 
 
     {
@@ -79,7 +73,7 @@ const CONFIG = {
  
 
     {
-      category: 'Mídia',
+      category: 'M\xCDdia',
       name: 'YouTube',
       key: 'yt',
       url: 'https://youtube.com',
@@ -88,7 +82,7 @@ const CONFIG = {
       quickLaunch: true,
     },
     {
-      category: 'Mídia',
+      category: 'M\xCDdia',
       name: 'ESound',
       key: 'es',
       url: 'https://esound.app/app/library',
@@ -97,11 +91,11 @@ const CONFIG = {
       quickLaunch: false,
     },
     {
-      category: 'Mídia',
+      category: 'M\xCDdia',
       name: 'MangaDex',
       key: 'md',
       url: 'https://mangadex.org/titles/follows',
-      color: '#ff6740',
+      color: '#e06f54',
       icon: 'mangadex',
       quickLaunch: false,
     },
