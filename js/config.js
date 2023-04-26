@@ -9,7 +9,7 @@ const CONFIG = {
   commands: [{
       name: 'DuckDuckGO',
       key: '*',
-      url: 'https://duckduckgo.com',
+      url: 'https://google.com',
       search: '/?q={}'
     },
 
